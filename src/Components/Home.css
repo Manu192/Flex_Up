@@ -1,0 +1,23 @@
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.visible {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quote-text {
+  opacity: 0;
+}
+.quote-text.visible {
+  opacity: 1;
+}

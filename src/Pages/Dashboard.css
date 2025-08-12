@@ -1,0 +1,51 @@
+.dashboard-main {
+  padding: 100px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #000, #0a0a0a);
+  color: #e0f4f5;
+  font-family: 'Orbitron', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 20px #00f0ff;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.cta-button {
+  background: linear-gradient(90deg, #00f0ff, #00c0cc);
+  color: #000;
+  border: none;
+  padding: 16px 32px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.8);
+}
+
+.quote {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #cce7e9;
+  text-shadow: 0 0 10px #00c0cc;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
